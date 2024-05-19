@@ -105,7 +105,7 @@ access(all) contract SomeContract {
         var ct2 = structObj3.c
         var dt2 = structObj3.d //Error: cannot access `d`: field has private access
         structObj3.publicFunc()
-        structObj3.contractFunc() //Error: cannot access `contractFunc`: function has contract access
+        structObj3.contractFunc()
         structObj3.privateFunc() //Error: cannot access `privateFunc`: function has private access
 
         //Write-access
